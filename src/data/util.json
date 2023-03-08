@@ -1,0 +1,72 @@
+{
+    "fields": [
+      {
+        "type": "text",
+        "label": "Name",
+        "name": "name",
+        "required": true,
+        "minLength": 2,
+        "maxLength": 20
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "name": "email",
+        "required": true
+      },
+      {
+        "type": "textarea",
+        "label": "Message",
+        "name": "message",
+        "required": true,
+        "minLength": 10,
+        "maxLength": 500
+      },
+      {
+        "type": "select",
+        "label": "Gender",
+        "name": "gender",
+        "required": true,
+        "options": [
+          { "label": "Male", "value": "male" },
+          { "label": "Female", "value": "female" },
+          { "label": "Other", "value": "other" }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "I agree to the terms and conditions",
+        "name": "terms",
+        "required": true
+      },
+      {
+        "type": "radio",
+        "label": "Favorite Color",
+        "name": "color",
+        "required": true,
+        "options": [
+          { "label": "Red", "value": "red" },
+          { "label": "Blue", "value": "blue" },
+          { "label": "Green", "value": "green" }
+        ]
+      },
+      {
+        "type": "file",
+        "label": "Upload a file",
+        "name": "file",
+        "required": true
+      },
+      {
+        "type": "checkbox",
+        "label": "Select your hobbies",
+        "name": "hobbies",
+        "required": true,
+        "options": [
+          { "label": "Reading", "value": "reading" },
+          { "label": "Cooking", "value": "cooking" },
+          { "label": "Traveling", "value": "traveling" }
+        ]
+      }
+    ]
+  }
+  
